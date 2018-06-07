@@ -70,7 +70,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>wenJdProvidertianjinEmp</finalName>
+        <finalName>kikro_project</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
