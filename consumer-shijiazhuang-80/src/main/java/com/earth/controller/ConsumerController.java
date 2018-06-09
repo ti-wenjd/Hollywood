@@ -3,6 +3,7 @@ package com.earth.controller;
 
 import com.earth.model.Emp;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +16,7 @@ public class ConsumerController {
 
 
     //private static final String REST_PREFIX_URL = "http://localhost:8001";
-    private static final String REST_PREFIX_URL = "http://PROVIDERTIANJIN-EMP";
+    private static final String REST_PREFIX_URL = "http://PROVIDER-TIANJIN";
 
     @Autowired
     private RestTemplate restTemplate;

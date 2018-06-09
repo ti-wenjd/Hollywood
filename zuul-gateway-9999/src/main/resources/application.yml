@@ -1,0 +1,36 @@
+server:
+  port: 9999
+
+
+spring:
+  application:
+    name: zuul-gateway-9999
+
+
+eureka:
+  client: #客户端注册进eureka服务
+    service-url:
+     # defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: zuul-gateway-9999.com
+    prefer-ip-address: true #访问路径可以显示IP地址
+
+
+info:
+  app.name: kikro_project
+  company.name: www.aixuexi.club
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
+#zuul的配置信息
+
+zuul:
+  ignored-services: "*"
+  routes:
+    pemp.serviceId: provider-tianjin
+    pemp.path: /rty/**
+  prefix: /world
+
+

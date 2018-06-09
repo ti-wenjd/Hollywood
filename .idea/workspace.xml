@@ -1,76 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="025fc796-11ed-404d-a257-043c4948c158" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/beijing/target/" />
-    <ignored path="$PROJECT_DIR$/provider-tianjin-8001/target/" />
-    <ignored path="$PROJECT_DIR$/consumer-shijiazhuang-80/target/" />
+    <list default="true" id="567adc0c-4f53-4b85-8535-6ebf8e793e18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/beijing/src/main/java/com/earth/service/EmpClientFallBackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beijing/src/main/java/com/earth/service/EmpClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/ConsumerFeign80_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/src/main/java/com/earth/ConsumerHystrix9001_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/ProviderTianjin8002_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/controller/ProviderEmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/dao/EmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/resources/mybatis/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-8002/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/ProviderTianjinHystrix8001_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/controller/ProviderEmpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/dao/EmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/resources/mybatis/mapper/EmpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9999/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9999/src/main/java/com/earth/ZuulGateWay9999_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9999/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/beijing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beijing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/src/main/java/com/earth/model/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/beijing/src/main/java/com/earth/model/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/target/classes/com/earth/model/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/beijing/target/classes/com/earth/model/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/beijing/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/beijing/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/beijing/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beijing/target/microservicecloud.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/china.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/consumer-shijiazhuang-80.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/Consumer80_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/Consumer80_App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/config/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/com/earth/Consumer80_App.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/com/earth/Consumer80_App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/com/earth/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/com/earth/config/MyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/com/earth/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-shijiazhuang-80/target/classes/com/earth/controller/ConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7001/eureka-shanghai-7001.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-shanghai-7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-shanghai-7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7001/target/classes/com/earth/Eureka7001_App.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-shanghai-7001/target/classes/com/earth/Eureka7001_App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7002/eureka-shanghai-7002.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7002/target/classes/com/earth/Eureka7002_App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7003/eureka-shanghai-7003.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7003/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-shanghai-7003/target/classes/com/earth/Eureka7003_App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/provider-tianjin-8001.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/ProviderTianjin8001_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/ProviderTianjin8001_App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/controller/ProviderEmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/controller/ProviderEmpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/ProviderTianjin8001_App.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/ProviderTianjin8001_App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/controller/ProviderEmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/controller/ProviderEmpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/dao/EmpDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/service/EmpService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-tianjin-8001/target/classes/com/earth/service/impl/EmpServiceImpl.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/eureka-shanghai-7001/target/" />
-    <ignored path="$PROJECT_DIR$/eureka-shanghai-7003/target/" />
     <ignored path="$PROJECT_DIR$/eureka-shanghai-7002/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-shanghai-7003/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/provider-tianjin-8001/target/" />
+    <ignored path="$PROJECT_DIR$/beijing/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-shijiazhuang-80/target/" />
+    <ignored path="$PROJECT_DIR$/provider-tianjin-8002/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/target/" />
+    <ignored path="$PROJECT_DIR$/provider-tianjin-hystrix-8001/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-gateway-9999/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="china" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-shanghai-7001/src/main/java/com/earth/Eureka7001_App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-shanghai-7002/src/main/java/com/earth/Eureka7002_App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-shanghai-7003/src/main/java/com/earth/Eureka7003_App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/ProviderTianjin8001_App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/controller/ProviderEmpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="22">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,54 +117,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/service/impl/EmpServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/zuul-gateway-9999/src/main/java/com/earth/ZuulGateWay9999_App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="175">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/Consumer80_App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/controller/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/zuul-gateway-9999/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="205">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -134,8 +142,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="287">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-gateway-9999/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-37">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -150,36 +176,49 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>execute</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-shanghai-7001/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7001/src/main/java/com/earth/Eureka7001_App.java" />
-        <option value="$PROJECT_DIR$/beijing/src/main/java/com/earth/model/Emp.java" />
-        <option value="$PROJECT_DIR$/beijing/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7002/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7003/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7002/src/main/java/com/earth/Eureka7002_App.java" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7003/src/main/java/com/earth/Eureka7003_App.java" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-shanghai-7003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/earth/Eureka7001_App.java" />
-        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/Consumer80_App.java" />
-        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/config/MyConfig.java" />
         <option value="$PROJECT_DIR$/provider-tianjin-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/ProviderTianjin8001_App.java" />
-        <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/service/EmpService.java" />
-        <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/dao/EmpDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/mybatis/mybatis.cfg.xml" />
-        <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/mybatis/mapper/EmpMapper.xml" />
-        <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/service/impl/EmpServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/controller/ProviderEmpController.java" />
+        <option value="$PROJECT_DIR$/eureka-shanghai-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/ProviderTianjin8001_App.java" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/Consumer80_App.java" />
+        <option value="$PROJECT_DIR$/provider-tianjin-8002/pom.xml" />
         <option value="$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/provider-tianjin-8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/config/MyConfig.java" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/pom.xml" />
+        <option value="$PROJECT_DIR$/beijing/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/ConsumerFeign80_App.java" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/config/MyConfig.java" />
+        <option value="$PROJECT_DIR$/beijing/src/main/java/com/earth/model/Emp.java" />
+        <option value="$PROJECT_DIR$/provider-tianjin-hystrix-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/beijing/src/main/java/com/earth/service/EmpClientFallBackFactory.java" />
+        <option value="$PROJECT_DIR$/beijing/src/main/java/com/earth/service/EmpClientService.java" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/src/main/java/com/earth/ConsumerHystrix9001_App.java" />
+        <option value="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/ProviderTianjinHystrix8001_App.java" />
+        <option value="$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/controller/ProviderEmpController.java" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9999/src/main/java/com/earth/ZuulGateWay9999_App.java" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9999/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9999/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -204,640 +243,579 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="beijing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="beijing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="consumer-shijiazhuang-80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="consumer-shijiazhuang-80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="171" />
-    <option name="y" value="46" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="-18" />
+    <option name="y" value="30" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
-      <dailyData date="3-6-2018">
-        <observation name="false" value="52.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="false" value="136.0" />
+      <dailyData date="9-6-2018">
+        <observation name="false" value="102.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="18.0" />
-        <observation name="false" value="34.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="40.0" />
-        <observation name="false" value="96.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="20.0" />
+        <observation name="false" value="82.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
-      <dailyData date="3-6-2018">
-        <observation name="false" value="47.0" />
-        <observation name="true" value="5.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="false" value="118.0" />
-        <observation name="true" value="18.0" />
+      <dailyData date="9-6-2018">
+        <observation name="false" value="101.0" />
+        <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
-      <dailyData date="3-6-2018">
-        <observation name="0" value="5.0" />
-        <observation name="UNDEFINED" value="47.0" />
+      <dailyData date="7-6-2018">
+        <observation name="0" value="2.0" />
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="0" value="33.0" />
-        <observation name="1" value="3.0" />
-        <observation name="UNDEFINED" value="100.0" />
+      <dailyData date="9-6-2018">
+        <observation name="0" value="35.0" />
+        <observation name="UNDEFINED" value="67.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="false" value="8.0" />
-        <observation name="true" value="35.0" />
+      <dailyData date="7-6-2018">
+        <observation name="true" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="false" value="28.0" />
-        <observation name="true" value="97.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="26.0" />
+        <observation name="true" value="72.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="false" value="32.0" />
-        <observation name="true" value="11.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="false" value="103.0" />
-        <observation name="true" value="22.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="77.0" />
+        <observation name="true" value="21.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="false" value="32.0" />
-        <observation name="true" value="11.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="false" value="107.0" />
-        <observation name="true" value="18.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="79.0" />
+        <observation name="true" value="19.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="false" value="32.0" />
-        <observation name="true" value="11.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="false" value="100.0" />
-        <observation name="true" value="25.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="79.0" />
+        <observation name="true" value="19.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="false" value="37.0" />
-        <observation name="true" value="6.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="false" value="116.0" />
-        <observation name="true" value="9.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="94.0" />
+        <observation name="true" value="4.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
-      <dailyData date="3-6-2018">
-        <observation name="false" value="48.0" />
-        <observation name="true" value="4.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="false" value="134.0" />
+      <dailyData date="9-6-2018">
+        <observation name="false" value="100.0" />
         <observation name="true" value="2.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
-      <dailyData date="3-6-2018">
-        <observation name="NORMAL" value="35.0" />
-        <observation name="UNDEFINED" value="17.0" />
+      <dailyData date="7-6-2018">
+        <observation name="NORMAL" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="NORMAL" value="98.0" />
-        <observation name="UNDEFINED" value="38.0" />
+      <dailyData date="9-6-2018">
+        <observation name="NORMAL" value="89.0" />
+        <observation name="UNDEFINED" value="13.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="17.0" />
-        <observation name="expected" value="5.0" />
-        <observation name="normal" value="30.0" />
+      <dailyData date="7-6-2018">
+        <observation name="normal" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-        <observation name="expected" value="24.0" />
-        <observation name="maybeExpected" value="2.0" />
-        <observation name="normal" value="72.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="expected" value="20.0" />
+        <observation name="maybeExpected" value="8.0" />
+        <observation name="normal" value="60.0" />
+        <observation name="ofDefaultType" value="1.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="17.0" />
-        <observation name="annoMethod" value="1.0" />
-        <observation name="classNameOrGlobalStatic" value="9.0" />
-        <observation name="expectedTypeVariable" value="1.0" />
-        <observation name="normal" value="13.0" />
-        <observation name="probableKeyword" value="1.0" />
-        <observation name="suitableClass" value="7.0" />
-        <observation name="variable" value="3.0" />
+      <dailyData date="7-6-2018">
+        <observation name="annoMethod" value="2.0" />
+        <observation name="suitableClass" value="3.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-        <observation name="classNameOrGlobalStatic" value="25.0" />
-        <observation name="expectedTypeVariable" value="4.0" />
-        <observation name="normal" value="32.0" />
-        <observation name="probableKeyword" value="6.0" />
-        <observation name="suitableClass" value="22.0" />
-        <observation name="variable" value="9.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="annoMethod" value="7.0" />
+        <observation name="classNameOrGlobalStatic" value="18.0" />
+        <observation name="expectedTypeVariable" value="7.0" />
+        <observation name="normal" value="29.0" />
+        <observation name="probableKeyword" value="2.0" />
+        <observation name="suitableClass" value="20.0" />
+        <observation name="variable" value="6.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="unknown" value="43.0" />
+      <dailyData date="7-6-2018">
+        <observation name="unknown" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="unknown" value="125.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="unknown" value="98.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="false" value="14.0" />
-        <observation name="null" value="27.0" />
-        <observation name="true" value="2.0" />
+      <dailyData date="7-6-2018">
+        <observation name="false" value="3.0" />
+        <observation name="null" value="2.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="false" value="47.0" />
-        <observation name="null" value="76.0" />
-        <observation name="true" value="2.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="false" value="35.0" />
+        <observation name="null" value="60.0" />
+        <observation name="true" value="3.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="unknown" value="43.0" />
+      <dailyData date="7-6-2018">
+        <observation name="unknown" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="applicableByKind" value="1.0" />
-        <observation name="unknown" value="124.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="applicableByKind" value="2.0" />
+        <observation name="unknown" value="96.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="33.0" />
-        <observation name="normal" value="19.0" />
+      <dailyData date="7-6-2018">
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="normal" value="2.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="91.0" />
-        <observation name="delegation" value="4.0" />
-        <observation name="normal" value="41.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="53.0" />
+        <observation name="delegation" value="2.0" />
+        <observation name="normal" value="47.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
-      <dailyData date="3-6-2018">
-        <observation name="cancelled" value="92.0" />
-        <observation name="explicitSelect" value="50.0" />
-        <observation name="typedSelect" value="2.0" />
+      <dailyData date="7-6-2018">
+        <observation name="cancelled" value="27.0" />
+        <observation name="explicitSelect" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="cancelled" value="531.0" />
-        <observation name="explicitSelect" value="127.0" />
-        <observation name="typedSelect" value="9.0" />
+      <dailyData date="9-6-2018">
+        <observation name="cancelled" value="264.0" />
+        <observation name="explicitSelect" value="90.0" />
+        <observation name="typedSelect" value="12.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
-      <dailyData date="3-6-2018">
-        <observation name="BASIC" value="72.0" />
+      <dailyData date="7-6-2018">
+        <observation name="BASIC" value="8.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="BASIC" value="177.0" />
+      <dailyData date="9-6-2018">
+        <observation name="BASIC" value="130.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
-      <dailyData date="3-6-2018">
-        <observation name="count" value="144.0" />
+      <dailyData date="7-6-2018">
+        <observation name="count" value="32.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="count" value="667.0" />
+      <dailyData date="9-6-2018">
+        <observation name="count" value="366.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
-      <dailyData date="3-6-2018">
-        <observation name="average" value="0.116505" />
-        <observation name="count" value="103.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.073173" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="average" value="0.066421" />
-        <observation name="count" value="271.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.050825" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:grouping">
-      <dailyData date="3-6-2018">
+      <dailyData date="7-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="103.0" />
+        <observation name="count" value="9.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
+      <dailyData date="9-6-2018">
+        <observation name="average" value="0.078818" />
+        <observation name="count" value="203.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.056352" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="7-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="271.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="203.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="52.0" />
+      <dailyData date="7-6-2018">
+        <observation name="UNDEFINED" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="136.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="102.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="17.0" />
-        <observation name="average" value="-0.028985" />
-        <observation name="count" value="69.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1.0" />
-        <observation name="variance" value="0.027682" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-        <observation name="average" value="-0.071795" />
-        <observation name="count" value="195.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1.0" />
-        <observation name="variance" value="0.054749" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:position">
-      <dailyData date="3-6-2018">
-        <observation name="average" value="0.407767" />
-        <observation name="count" value="103.0" />
-        <observation name="max" value="3.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.564055" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="average" value="0.686347" />
-        <observation name="count" value="271.0" />
-        <observation name="max" value="19.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="2.926664" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prefix">
-      <dailyData date="3-6-2018">
-        <observation name="average" value="-1066.718446" />
-        <observation name="count" value="103.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1156.0" />
-        <observation name="variance" value="32509.132478" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="average" value="-1047.918819" />
-        <observation name="count" value="271.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1154.0" />
-        <observation name="variance" value="40164.553791" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:priority">
-      <dailyData date="3-6-2018">
-        <observation name="average" value="0.019417" />
-        <observation name="count" value="103.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.009427" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="average" value="-1.487085" />
-        <observation name="count" value="271.0" />
-        <observation name="max" value="1.0" />
-        <observation name="min" value="-50.0" />
-        <observation name="variance" value="41.916153" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_explicitlyImported">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="average" value="96.470588" />
-        <observation name="count" value="85.0" />
-        <observation name="max" value="300.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="11151.699414" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="average" value="57.429719" />
-        <observation name="count" value="249.0" />
-        <observation name="max" value="300.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="9175.229272" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_knownElement">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="average" value="0.988235" />
-        <observation name="count" value="85.0" />
-        <observation name="max" value="8.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="3.803378" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="average" value="0.457831" />
-        <observation name="count" value="249.0" />
-        <observation name="max" value="8.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="2.138236" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_sameModule">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="average" value="0.517647" />
-        <observation name="count" value="85.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.537953" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="average" value="0.449799" />
-        <observation name="count" value="249.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.503408" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:prox_samePsiMember">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="9.0" />
-        <observation name="average" value="0.352941" />
-        <observation name="count" value="85.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.300469" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="11.0" />
-        <observation name="average" value="0.192771" />
-        <observation name="count" value="249.0" />
-        <observation name="max" value="2.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.216895" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:query_length">
-      <dailyData date="3-6-2018">
+      <dailyData date="7-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="103.0" />
+        <observation name="count" value="9.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="-0.056497" />
+        <observation name="count" value="177.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.036505" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="7-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="271.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="average" value="0.586207" />
+        <observation name="count" value="203.0" />
+        <observation name="max" value="17.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="2.532136" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="-1096.444444" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="-1052.0" />
+        <observation name="min" value="-1152.0" />
+        <observation name="variance" value="1204.736709" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="average" value="-1072.788177" />
+        <observation name="count" value="203.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1155.0" />
+        <observation name="variance" value="38959.578067" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="average" value="0.029557" />
+        <observation name="count" value="203.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.024185" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="22.222222" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="100.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="756.17284" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="67.692308" />
+        <observation name="count" value="195.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="8828.607696" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.246154" />
+        <observation name="count" value="195.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="2.037949" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.492308" />
+        <observation name="count" value="195.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.442763" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="4.0" />
+        <observation name="average" value="0.287179" />
+        <observation name="count" value="195.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.311546" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="203.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:result_length">
-      <dailyData date="3-6-2018">
-        <observation name="average" value="10.165048" />
-        <observation name="count" value="103.0" />
-        <observation name="max" value="54.0" />
-        <observation name="min" value="2.0" />
-        <observation name="variance" value="79.420018" />
+      <dailyData date="7-6-2018">
+        <observation name="average" value="8.666667" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="12.0" />
+        <observation name="min" value="4.0" />
+        <observation name="variance" value="6.792729" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="average" value="11.476015" />
-        <observation name="count" value="271.0" />
-        <observation name="max" value="39.0" />
+      <dailyData date="9-6-2018">
+        <observation name="average" value="9.241379" />
+        <observation name="count" value="203.0" />
+        <observation name="max" value="27.0" />
         <observation name="min" value="2.0" />
-        <observation name="variance" value="64.345813" />
+        <observation name="variance" value="29.984977" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="17.0" />
-        <observation name="average" value="-0.028985" />
-        <observation name="count" value="69.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1.0" />
-        <observation name="variance" value="0.027682" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-        <observation name="average" value="-0.071795" />
-        <observation name="count" value="195.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-1.0" />
-        <observation name="variance" value="0.054749" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:shorter">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="17.0" />
-        <observation name="average" value="-28.956522" />
-        <observation name="count" value="69.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-999.0" />
-        <observation name="variance" value="27626.53891" />
-      </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
-        <observation name="average" value="-71.661538" />
-        <observation name="count" value="195.0" />
-        <observation name="max" value="0.0" />
-        <observation name="min" value="-999.0" />
-        <observation name="variance" value="54553.176656" />
-      </dailyData>
-    </factor>
-    <factor id="doubleFeature:simple">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="17.0" />
+      <dailyData date="7-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="69.0" />
+        <observation name="count" value="9.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="38.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="-0.056497" />
+        <observation name="count" value="177.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.036505" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="7-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="195.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="-56.440678" />
+        <observation name="count" value="177.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="36432.41141" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="7-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="9.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="13.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="177.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
-      <dailyData date="3-6-2018">
+      <dailyData date="7-6-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="103.0" />
+        <observation name="count" value="9.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
+      <dailyData date="9-6-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="271.0" />
+        <observation name="count" value="203.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
-      <dailyData date="3-6-2018">
-        <observation name="UNDEFINED" value="33.0" />
-        <observation name="average" value="-3.162162" />
-        <observation name="count" value="37.0" />
+      <dailyData date="7-6-2018">
+        <observation name="UNDEFINED" value="2.0" />
+        <observation name="average" value="-3.0" />
+        <observation name="count" value="5.0" />
         <observation name="max" value="-3.0" />
-        <observation name="min" value="-5.0" />
-        <observation name="variance" value="0.220396" />
+        <observation name="min" value="-3.0" />
+        <observation name="variance" value="-0.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="UNDEFINED" value="76.0" />
-        <observation name="average" value="-3.067227" />
-        <observation name="count" value="119.0" />
+      <dailyData date="9-6-2018">
+        <observation name="UNDEFINED" value="57.0" />
+        <observation name="average" value="-3.179775" />
+        <observation name="count" value="89.0" />
         <observation name="max" value="-3.0" />
         <observation name="min" value="-5.0" />
-        <observation name="variance" value="0.15429" />
+        <observation name="variance" value="0.177476" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
-      <dailyData date="3-6-2018">
-        <observation name="average" value="1359.165049" />
-        <observation name="count" value="103.0" />
+      <dailyData date="7-6-2018">
+        <observation name="average" value="3332.888889" />
+        <observation name="count" value="9.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="8816868.959753" />
+        <observation name="variance" value="10003454.573066" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="average" value="3170.907749" />
-        <observation name="count" value="271.0" />
+      <dailyData date="9-6-2018">
+        <observation name="average" value="2803.748768" />
+        <observation name="count" value="203.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="19400727.817019" />
+        <observation name="variance" value="17629331.721732" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
-      <dailyData date="3-6-2018">
-        <observation name="0" value="40.0" />
-        <observation name="1" value="2.0" />
-        <observation name="2" value="5.0" />
-        <observation name="3" value="3.0" />
+      <dailyData date="7-6-2018">
+        <observation name="0" value="5.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="0" value="93.0" />
-        <observation name="1" value="17.0" />
+      <dailyData date="9-6-2018">
+        <observation name="0" value="70.0" />
+        <observation name="1" value="11.0" />
         <observation name="10" value="1.0" />
-        <observation name="19" value="1.0" />
-        <observation name="2" value="6.0" />
-        <observation name="3" value="5.0" />
-        <observation name="4" value="3.0" />
-        <observation name="8" value="1.0" />
+        <observation name="17" value="1.0" />
+        <observation name="2" value="3.0" />
+        <observation name="3" value="2.0" />
+        <observation name="4" value="1.0" />
+        <observation name="6" value="1.0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
-      <dailyData date="3-6-2018">
-        <observation name="total" value="30.0" />
-        <observation name="withMnemonics" value="5.0" />
+      <dailyData date="7-6-2018">
+        <observation name="total" value="4.0" />
+        <observation name="withMnemonics" value="0.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="total" value="64.0" />
-        <observation name="withMnemonics" value="24.0" />
+      <dailyData date="9-6-2018">
+        <observation name="total" value="42.0" />
+        <observation name="withMnemonics" value="3.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
-      <dailyData date="3-6-2018">
-        <observation name="0" value="2.0" />
-        <observation name="1" value="18.0" />
-        <observation name="13" value="1.0" />
-        <observation name="18" value="1.0" />
-        <observation name="2" value="11.0" />
-        <observation name="3" value="9.0" />
-        <observation name="4" value="3.0" />
-        <observation name="6" value="1.0" />
-        <observation name="7" value="3.0" />
-        <observation name="8" value="1.0" />
+      <dailyData date="7-6-2018">
+        <observation name="1" value="1.0" />
+        <observation name="2" value="3.0" />
+        <observation name="4" value="1.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="0" value="6.0" />
-        <observation name="1" value="57.0" />
-        <observation name="10" value="1.0" />
-        <observation name="12" value="1.0" />
-        <observation name="2" value="17.0" />
-        <observation name="3" value="20.0" />
-        <observation name="4" value="10.0" />
-        <observation name="5" value="4.0" />
-        <observation name="6" value="5.0" />
+      <dailyData date="9-6-2018">
+        <observation name="0" value="4.0" />
+        <observation name="1" value="44.0" />
+        <observation name="11" value="1.0" />
+        <observation name="17" value="1.0" />
+        <observation name="2" value="19.0" />
+        <observation name="3" value="7.0" />
+        <observation name="4" value="8.0" />
+        <observation name="5" value="1.0" />
         <observation name="7" value="4.0" />
-        <observation name="8" value="2.0" />
+        <observation name="8" value="1.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
-      <dailyData date="3-6-2018">
-        <observation name="average" value="624.282829" />
-        <observation name="count" value="99.0" />
+      <dailyData date="7-6-2018">
+        <observation name="average" value="973.25" />
+        <observation name="count" value="4.0" />
       </dailyData>
-      <dailyData date="5-6-2018">
-        <observation name="average" value="565.558376" />
-        <observation name="count" value="197.0" />
+      <dailyData date="9-6-2018">
+        <observation name="average" value="798.313043" />
+        <observation name="count" value="115.0" />
       </dailyData>
     </factor>
   </component>
@@ -846,43 +824,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-shijiazhuang-80" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-shijiazhuang-80" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-shijiazhuang-80" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-shijiazhuang-80" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-shijiazhuang-80" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -890,8 +870,8 @@
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer-shijiazhuang-80" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -900,26 +880,51 @@
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
               <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9999" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="china" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9999" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9999" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="china" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opensource" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-tianjin-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9999" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="china" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9999" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="earth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="china" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hollywood" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway-9999" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -928,28 +933,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="RetryTemplate&#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor#retryTemplate&#10;LoadBalancerAutoConfiguration &#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration&#10;LoadBalancerInterceptor &#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor&#10;InterceptingRequestExecution &#9;PSI&#9;JAVA://org.springframework.http.client.InterceptingClientHttpRequest.InterceptingRequestExecution" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4218391" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="earth" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\opensource\eureka-shanghai-7003\src\main\resources" />
-      <recent name="F:\workspace\opensource\eureka-shanghai-7002\src\main\resources" />
-      <recent name="F:\workspace\opensource\eureka-shanghai-7003\src\main\java" />
-      <recent name="F:\workspace\opensource\eureka-shanghai-7002\src\main\java" />
+      <recent name="F:\workspace\Hollywood\provider-tianjin-hystrix-8001\src\main\resources" />
+      <recent name="F:\workspace\Hollywood\provider-tianjin-hystrix-8001\src\main\java" />
+      <recent name="F:\workspace\Hollywood\consumer-shijiazhuang-feign-80\src\main\resources" />
+      <recent name="F:\workspace\Hollywood\consumer-shijiazhuang-feign-80\src\main\java" />
+      <recent name="F:\workspace\Hollywood\provider-tianjin-8002\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -964,7 +969,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer80_App">
+  <component name="RunManager" selected="Application.ZuulGateWay9999_App">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -987,7 +992,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528215448944" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528552168922" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1011,12 +1016,12 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528215448944" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528552168922" />
       </method>
     </configuration>
-    <configuration name="Consumer80_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.earth.Consumer80_App" />
-      <module name="consumershijiazhuang80" />
+    <configuration name="ConsumerHystrix9001_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.earth.ConsumerHystrix9001_App" />
+      <module name="consumershijiazhuanghystrixdashboard" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.earth.*" />
@@ -1029,33 +1034,7 @@
     </configuration>
     <configuration name="Eureka7001_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.earth.Eureka7001_App" />
-      <module name="eurekashanghai7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.earth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7002_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.earth.Eureka7002_App" />
-      <module name="eurekashanghai7002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.earth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7003_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.earth.Eureka7003_App" />
-      <module name="eurekashanghai7003" />
+      <module name="eureka-shanghai-7001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.earth.*" />
@@ -1068,7 +1047,33 @@
     </configuration>
     <configuration name="ProviderTianjin8001_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.earth.ProviderTianjin8001_App" />
-      <module name="providertianjin8001" />
+      <module name="provider-tianjin-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderTianjinHystrix8001_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.earth.ProviderTianjinHystrix8001_App" />
+      <module name="providertianjinhystrix8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulGateWay9999_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.earth.ZuulGateWay9999_App" />
+      <module name="zuulgateway9999" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.earth.*" />
@@ -1081,18 +1086,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Eureka7001_App" />
-      <item itemvalue="Application.Eureka7003_App" />
-      <item itemvalue="Application.Eureka7002_App" />
+      <item itemvalue="Application.ProviderTianjinHystrix8001_App" />
+      <item itemvalue="Application.ConsumerHystrix9001_App" />
       <item itemvalue="Application.ProviderTianjin8001_App" />
-      <item itemvalue="Application.Consumer80_App" />
+      <item itemvalue="Application.ZuulGateWay9999_App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consumer80_App" />
+        <item itemvalue="Application.ZuulGateWay9999_App" />
         <item itemvalue="Application.ProviderTianjin8001_App" />
-        <item itemvalue="Application.Eureka7003_App" />
-        <item itemvalue="Application.Eureka7002_App" />
         <item itemvalue="Application.Eureka7001_App" />
+        <item itemvalue="Application.ConsumerHystrix9001_App" />
+        <item itemvalue="Application.ProviderTianjinHystrix8001_App" />
       </list>
     </recent_temporary>
   </component>
@@ -1101,52 +1106,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="025fc796-11ed-404d-a257-043c4948c158" name="Default" comment="" />
-      <created>1528039969466</created>
+      <changelist id="567adc0c-4f53-4b85-8535-6ebf8e793e18" name="Default Changelist" comment="" />
+      <created>1528384517922</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528039969466</updated>
-      <workItem from="1528039979200" duration="1199000" />
-      <workItem from="1528041224708" duration="263000" />
-      <workItem from="1528127812338" duration="721000" />
-      <workItem from="1528206974281" duration="6456000" />
+      <updated>1528384517922</updated>
+      <workItem from="1528384519584" duration="518000" />
+      <workItem from="1528385092019" duration="12000" />
+      <workItem from="1528385119011" duration="467000" />
+      <workItem from="1528385822915" duration="2447000" />
+      <workItem from="1528510033200" duration="25544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8639000" />
+    <option name="totallyTimeSpent" value="28988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49778762" visible="true" weight="0.36729223" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881798" visible="true" weight="0.25938338" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" sideWeight="0.501182" type="SLIDING" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.35977337" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36260623" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49933067" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50066936" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49732262" weight="0.3281471" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Web" order="14" sideWeight="0.5020107" side_tool="true" weight="0.35977337" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.20241287" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1159,235 +1165,435 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/RoundRobinRule.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7001/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="28" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="155">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7002/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="88">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7003/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerRequestFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="88" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/earth/Eureka7001_App.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beijing/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/config/MyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="-264">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#0#1946#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/AsyncLoadBalancerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <folding>
+            <element signature="e#0#1596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="98" column="37" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="659" selection-start-line="659" selection-end-line="659" />
+          <folding>
+            <element signature="e#10464#10465#0" expanded="true" />
+            <element signature="e#10495#10496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/AsyncLoadBalancerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerRequestFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/src/main/resources/mybatis/mapper/EmpMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/dao/EmpDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="263">
+          <caret line="45" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/service/EmpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beijing/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/config/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/controller/ProviderEmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/beijing/src/main/java/com/earth/model/Emp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" selection-start-line="8" selection-end-line="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/ConsumerFeign80_App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/mybatis/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/dao/EmpDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="154">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/mybatis/mapper/EmpMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7001/src/main/java/com/earth/Eureka7001_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7002/src/main/java/com/earth/Eureka7002_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-shanghai-7003/src/main/java/com/earth/Eureka7003_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/ProviderTianjin8001_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/controller/ProviderEmpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/service/EmpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/service/impl/EmpServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="183">
+          <caret line="16" column="19" selection-start-line="13" selection-start-column="2" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/dao/EmpDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/resources/mybatis/mapper/EmpMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/service/impl/EmpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/service/EmpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/Consumer80_App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="109">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/config/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/java/com/earth/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/src/main/java/com/earth/ProviderTianjin8002_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-feign-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beijing/src/main/java/com/earth/service/EmpClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-feign-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="50" column="19" selection-start-line="13" selection-start-column="3" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beijing/src/main/java/com/earth/service/EmpClientFallBackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-hystrix-dashboard/src/main/java/com/earth/ConsumerHystrix9001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/ProviderTianjinHystrix8001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/java/com/earth/controller/ProviderEmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="82" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-hystrix-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="31" selection-start-line="31" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/ProviderTianjin8001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9999/src/main/java/com/earth/ZuulGateWay9999_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9999/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/java/com/earth/controller/ProviderEmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider-tianjin-8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="287">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-shijiazhuang-80/src/main/java/com/earth/controller/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9999/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="205">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -1400,7 +1606,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4218391" />
               </list>
             </option>
           </splitter-proportions>
@@ -1408,11 +1614,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (eureka-shanghai-7001)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4218391" />
               </list>
             </option>
           </splitter-proportions>
@@ -1423,7 +1629,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4218391" />
               </list>
             </option>
           </splitter-proportions>
@@ -1435,7 +1641,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4218391" />
               </list>
             </option>
           </splitter-proportions>
@@ -1443,12 +1649,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>opensource</last-edited>
+          <last-edited>eureka-shanghai-7001</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4218391" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1460,7 +1677,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4218391" />
               </list>
             </option>
           </splitter-proportions>

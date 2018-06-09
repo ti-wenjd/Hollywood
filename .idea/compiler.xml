@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -8,11 +9,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="beijing" />
-        <module name="consumershijiazhuang80" />
-        <module name="eurekashanghai7001" />
-        <module name="eurekashanghai7002" />
-        <module name="eurekashanghai7003" />
-        <module name="providertianjin8001" />
+        <module name="consumer-shijiazhuang-80" />
+        <module name="consumershijiazhuangfeign80" />
+        <module name="consumershijiazhuanghystrixdashboard" />
+        <module name="eureka-shanghai-7001" />
+        <module name="eureka-shanghai-7002" />
+        <module name="eureka-shanghai-7003" />
+        <module name="provider-tianjin-8001" />
+        <module name="providertianjin8002" />
+        <module name="providertianjinhystrix8001" />
+        <module name="zuulgateway9999" />
       </profile>
     </annotationProcessing>
   </component>

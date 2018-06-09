@@ -66,6 +66,11 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
+            <!--<dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.47</version>
+            </dependency>-->
         </dependencies>
     </dependencyManagement>
 
@@ -99,6 +104,11 @@
         <module>eureka-shanghai-7001</module>
         <module>eureka-shanghai-7002</module>
         <module>eureka-shanghai-7003</module>
+        <module>provider-tianjin-8002</module>
+        <module>consumer-shijiazhuang-feign-80</module>
+        <module>provider-tianjin-hystrix-8001</module>
+        <module>consumer-shijiazhuang-hystrix-dashboard</module>
+        <module>zuul-gateway-9999</module>
     </modules>
 
 
