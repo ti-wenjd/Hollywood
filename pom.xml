@@ -109,6 +109,9 @@
         <module>provider-tianjin-hystrix-8001</module>
         <module>consumer-shijiazhuang-hystrix-dashboard</module>
         <module>zuul-gateway-9999</module>
+        <module>config-shandong-2222</module>
+        <module>kikro-springcloud-config-eureka-client</module>
+        <module>kikro-config-emp-client-8001</module>
     </modules>
 
 

@@ -9,12 +9,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="beijing" />
+        <module name="configshandong2222" />
         <module name="consumer-shijiazhuang-80" />
         <module name="consumershijiazhuangfeign80" />
         <module name="consumershijiazhuanghystrixdashboard" />
         <module name="eureka-shanghai-7001" />
         <module name="eureka-shanghai-7002" />
         <module name="eureka-shanghai-7003" />
+        <module name="kikroconfigempclient8001" />
+        <module name="kikrospringcloudconfigeurekaclient" />
         <module name="provider-tianjin-8001" />
         <module name="providertianjin8002" />
         <module name="providertianjinhystrix8001" />
